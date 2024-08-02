@@ -113,4 +113,25 @@ Follow these steps to set up Apache Airflow using Docker Compose:
 
    You can change these credentials as needed.
 
-This guide provides clear, step-by-step instructions for setting up Apache Airflow locally using Docker and Docker Compose.
+
+9. **Portainer**
+
+   Portainer is a UI tool used to monitor all running containers, images, volumes, and other Docker-related components on your machine. Follow these steps to set up Portainer:
+
+   - **Create a Volume for Portainer**:
+
+     ```bash
+     docker volume create portainer_data
+     ```
+
+   - **Download and Install Portainer**:
+
+     ```bash
+     docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+     ```
+
+   - **Login from Browser**:
+
+     Open your browser and navigate to [https://localhost:9443](https://localhost:9443) to access the Portainer UI.
+
+This guide provides clear, step-by-step instructions for setting up Apache Airflow locally using Docker and Docker Compose, along with monitoring your Docker environment using Portainer.
