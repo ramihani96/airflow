@@ -101,7 +101,7 @@ Follow these steps to set up Apache Airflow using Docker Compose:
     docker-compose up -d
     ```
 
-This command will start all the services defined in your `docker-compose.yaml` file.
+    This command will start all the services defined in your `docker-compose.yaml` file.
 
 
 8. **User Interface**
