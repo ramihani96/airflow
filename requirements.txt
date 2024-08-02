@@ -1,0 +1,16 @@
+numpy
+pandas
+requests
+BeautifulSoup4
+regex
+python-dotenv
+psycopg2-binary
+facebook-business
+flatten_json
+google.cloud
+datetime
+sqlalchemy
+numpy-financial
+google-ads
+soda-core
+soda-core-postgres
