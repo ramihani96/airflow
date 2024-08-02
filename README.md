@@ -104,7 +104,7 @@ Follow these steps to set up Apache Airflow using Docker Compose:
     This command will start all the services defined in your `docker-compose.yaml` file.
 
 
-8. **User Interface**
+8. **Airflow User Interface**
 
    Access the user interface at the following link: [http://localhost:8080](http://localhost:8080). The initial login credentials for Airflow are:
 
