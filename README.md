@@ -79,7 +79,7 @@ Follow these steps to set up Apache Airflow using Docker Compose:
         ...
     ```
 
-5. **Add Volumes for `src` and `both python & SQL scripts**
+5. **Add Volumes for `src` and `queries`**
 
    Update the `docker-compose.yaml` file to include volumes for the `src` and `queries` folders containing both python & SQL scripts. Example:
 
