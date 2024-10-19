@@ -14,3 +14,5 @@ numpy-financial
 google-ads
 soda-core
 soda-core-postgres
+apache-airflow-providers-http
+apache-airflow-providers-airbyte==3.8.0
